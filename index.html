@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Mahuer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="LogoMahuer.svg" sizes="any">
+
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Linking font awesome for icons -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet">
+
+    <link
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Café Mahuer</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Acerca de Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tea" class="nav-link">Salon del Té</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Visitanos</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <!-- Hero Sectio -->
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">CAFÉ MAHUER</h2>
+                    <h3 class="subtitle">El arte profesional del sabor</h3>
+                    <p class="description">Bienvenidos a nuestro paraíso de café, donde cada grano cuenta una historia y cada taza esparce felicidad</p>
+                    <div class="buttons">
+                        <a href="#menu" class="button orden-now">Ordena Ahora</a>
+                        <a href="#contact" class="button contact-us">Visitanos</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/LogoMahuer.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/place.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Acerca de Nosotros</h2>
+                    <p class="text">
+                        “Café Mahuer es una empresa dedicada a la formación educativa y venta especializada en productos de café.
+
+Desde 1936, somos productores de café de la región de Atoyac de Álvarez, Estado de Guerrero, con una altura de 1,200 metros sobre el nivel del mar, así como cafés de otras regiones de alta gama".
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section-->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <div class="section-content">
+                <a href="https://nahumgonzalez.github.io/mahuer/bebidas/">
+            <div class="box-1">
+                <h2>Bebidas</h2>
+            </div>
+                </a>
+                <a href="https://nahumgonzalez.github.io/mahuer/bebidas/">
+            <div class="box-2" href="https://nahumgonzalez.github.io/mahuer/bebidas/">
+                <h2>Panaderia</h2>
+            </div>
+                </a>
+                <a href="https://nahumgonzalez.github.io/mahuer/bebidas/">
+            <div class="box-3">
+                <h2>Comidas</h2>
+            </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Testimonials Section--> 
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonials swiper-slide">
+                                <h3 class="name">Katia Luis</h3>
+                                <i class="feedback">"Un lugar súper bonito para disfrutar de un café, variedad de bebidas calientes, ambiente tranquilo y vista perfecta hacia el lago."</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <h3 class="name">Paula Plasrom</h3>
+                                <i class="feedback">"El lugar está hermoso, la atención es muy buena por parte de todo el personal, todo muy rico."</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <h3 class="name">Ale Perez González</h3>
+                                <i class="feedback">"Las bebidas muy ricas, tienen una amplia variedad de bebidas 🍵
+                                    El lugar es bonito y el personal fue amable"</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <h3 class="name">Maritza PatPac</h3>
+                                <i class="feedback">"El lugar está increíble, la comida muy rica, el trato súper amable, la música excelente. Es perfecto"</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tea Section -->
+        <section class="tea-section" id="tea">
+            <div class="white">
+            <h2 class="section-title">Salon del Té</h2>
+            <div class="tea-content">
+                <div class="tea-details">
+                    <p class="description">Ofrecemos una experiencia única con una amplia selección de tés. Sumérgete en el ritual del té, donde descubrirás su historia, el arte de prepararlo y la forma ideal de disfrutarlo.</p>
+                    <div class="buttons">
+                        <a href="#" class="button our-teas">Nuestros Tés</a>
+                    </div>
+                </div>
+                <div class="tea-image-wrapper">
+                    <img src="images/teMahuer.png" alt="Hero" class="tea-image">
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Visit Us Section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Visitanos</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p><a href="https://maps.app.goo.gl/Hm78dmu4EpWSpJeD6" class="location">Bosques de Bolognia No. 117, MZ 035, Bosques del Lago, Cuautitlán Izcalli, Méx.</a></p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@cafemahuer.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p><a href="https://wa.me/5554529868" class="whatsapp">55 5452 9868</a></p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Lunes - Jueves: 09:00 AM - 08:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Viernes - Sábado: 09:00 AM - 09:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Domingo: Cerrado</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid"></i>
+                        <p><strong>Tu Café Favorito disponible ya en:</strong></p>
+                    </li>
+                    <li class="contact-info">
+                        <a href="https://www.ubereats.com/mx/store/cafe-mahuer/Oc87QTZDQ3mRxOFmlQyoXQ?diningMode=DELIVERY" class="button what-is">
+                            Uber Eats
+                        </a>
+                    </li>
+                </ul>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.1516867987566!2d-99.2470543247359!3d19.620811781699125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21f3b98d435ad%3A0x647851dc62546f43!2sCaf%C3%A9%20Mahuer!5e0!3m2!1ses-419!2smx!4v1732703467008!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2024 Café Mahuer</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Política de Privacidad</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Política de Datos</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Linking Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--js custom link-->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
